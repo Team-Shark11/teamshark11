@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF53E2D22A347A050082D9DD /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D12A347A050082D9DD /* MainTabBarViewController.swift */; };
+		AF53E2D42A347B3E0082D9DD /* BillboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D32A347B3E0082D9DD /* BillboardViewController.swift */; };
+		AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */; };
+		AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D72A347BA40082D9DD /* FoodViewController.swift */; };
+		AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */; };
 		F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC842A31C11E000706E2 /* AppDelegate.swift */; };
 		F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC862A31C11E000706E2 /* SceneDelegate.swift */; };
-		F99BDC892A31C11E000706E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC882A31C11E000706E2 /* ViewController.swift */; };
 		F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC8D2A31C11E000706E2 /* Cinemax.xcdatamodeld */; };
 		F99BDC912A31C11F000706E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99BDC902A31C11F000706E2 /* Assets.xcassets */; };
 		F99BDC942A31C11F000706E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99BDC922A31C11F000706E2 /* LaunchScreen.storyboard */; };
@@ -36,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF53E2D12A347A050082D9DD /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		AF53E2D32A347B3E0082D9DD /* BillboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardViewController.swift; sourceTree = "<group>"; };
+		AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
+		AF53E2D72A347BA40082D9DD /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F99BDC812A31C11E000706E2 /* Cinemax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99BDC842A31C11E000706E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99BDC862A31C11E000706E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F99BDC882A31C11E000706E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F99BDC8E2A31C11E000706E2 /* Cinemax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cinemax.xcdatamodel; sourceTree = "<group>"; };
 		F99BDC902A31C11F000706E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99BDC932A31C11F000706E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +84,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF53E2C82A3477EE0082D9DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF53E2C92A34781D0082D9DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF53E2CA2A3478260082D9DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AF53E2CB2A3478310082D9DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF53E2CF2A34797E0082D9DD /* General */,
+				AF53E2D02A34798B0082D9DD /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF53E2CC2A34784A0082D9DD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F99BDC902A31C11F000706E2 /* Assets.xcassets */,
+				F99BDC922A31C11F000706E2 /* LaunchScreen.storyboard */,
+				F99BDC952A31C11F000706E2 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AF53E2CD2A3478B00082D9DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F99BDC842A31C11E000706E2 /* AppDelegate.swift */,
+				F99BDC862A31C11E000706E2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AF53E2CE2A34790D0082D9DD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AF53E2CF2A34797E0082D9DD /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		AF53E2D02A34798B0082D9DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF53E2D12A347A050082D9DD /* MainTabBarViewController.swift */,
+				AF53E2D32A347B3E0082D9DD /* BillboardViewController.swift */,
+				AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */,
+				AF53E2D72A347BA40082D9DD /* FoodViewController.swift */,
+				AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		F99BDC782A31C11E000706E2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +182,13 @@
 		F99BDC832A31C11E000706E2 /* Cinemax */ = {
 			isa = PBXGroup;
 			children = (
-				F99BDC842A31C11E000706E2 /* AppDelegate.swift */,
-				F99BDC862A31C11E000706E2 /* SceneDelegate.swift */,
-				F99BDC882A31C11E000706E2 /* ViewController.swift */,
-				F99BDC902A31C11F000706E2 /* Assets.xcassets */,
-				F99BDC922A31C11F000706E2 /* LaunchScreen.storyboard */,
-				F99BDC952A31C11F000706E2 /* Info.plist */,
+				AF53E2CE2A34790D0082D9DD /* Managers */,
+				AF53E2C82A3477EE0082D9DD /* Models */,
+				AF53E2C92A34781D0082D9DD /* Views */,
+				AF53E2CA2A3478260082D9DD /* ViewModels */,
+				AF53E2CB2A3478310082D9DD /* Controllers */,
+				AF53E2CD2A3478B00082D9DD /* Application */,
+				AF53E2CC2A34784A0082D9DD /* SupportingFiles */,
 				F99BDC8D2A31C11E000706E2 /* Cinemax.xcdatamodeld */,
 			);
 			path = Cinemax;
@@ -257,9 +341,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99BDC892A31C11E000706E2 /* ViewController.swift in Sources */,
 				F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */,
+				AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */,
+				AF53E2D22A347A050082D9DD /* MainTabBarViewController.swift in Sources */,
+				AF53E2D42A347B3E0082D9DD /* BillboardViewController.swift in Sources */,
 				F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */,
+				AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */,
+				AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */,
 				F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,8 +522,9 @@
 				INFOPLIST_FILE = Cinemax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,8 +550,9 @@
 				INFOPLIST_FILE = Cinemax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
