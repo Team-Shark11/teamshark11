@@ -12,6 +12,14 @@
 		AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */; };
 		AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D72A347BA40082D9DD /* FoodViewController.swift */; };
 		AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */; };
+		AFA74B0E2A38721E00BF826C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B0D2A38721E00BF826C /* APICaller.swift */; };
+		AFA74B102A38723300BF826C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B0F2A38723300BF826C /* Title.swift */; };
+		AFA74B122A38725800BF826C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */; };
+		AFA74B142A38726A00BF826C /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B132A38726A00BF826C /* TitleCollectionViewCell.swift */; };
+		AFA74B162A38727A00BF826C /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B152A38727A00BF826C /* TitleTableViewCell.swift */; };
+		AFA74B182A38728500BF826C /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B172A38728500BF826C /* TitleViewModel.swift */; };
+		AFA74B1A2A3872C800BF826C /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B192A3872C800BF826C /* TitlePreviewViewController.swift */; };
+		AFA74B1D2A3883BB00BF826C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B1C2A3883BB00BF826C /* Resources.swift */; };
 		F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC842A31C11E000706E2 /* AppDelegate.swift */; };
 		F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC862A31C11E000706E2 /* SceneDelegate.swift */; };
 		F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC8D2A31C11E000706E2 /* Cinemax.xcdatamodeld */; };
@@ -45,6 +53,14 @@
 		AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
 		AF53E2D72A347BA40082D9DD /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AFA74B0D2A38721E00BF826C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		AFA74B0F2A38723300BF826C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		AFA74B132A38726A00BF826C /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFA74B152A38727A00BF826C /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		AFA74B172A38728500BF826C /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		AFA74B192A3872C800BF826C /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		AFA74B1C2A3883BB00BF826C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F99BDC812A31C11E000706E2 /* Cinemax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99BDC842A31C11E000706E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99BDC862A31C11E000706E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +103,7 @@
 		AF53E2C82A3477EE0082D9DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B0F2A38723300BF826C /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +111,9 @@
 		AF53E2C92A34781D0082D9DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */,
+				AFA74B132A38726A00BF826C /* TitleCollectionViewCell.swift */,
+				AFA74B152A38727A00BF826C /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +121,7 @@
 		AF53E2CA2A3478260082D9DD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B172A38728500BF826C /* TitleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -136,6 +157,7 @@
 		AF53E2CE2A34790D0082D9DD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B0D2A38721E00BF826C /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -143,6 +165,7 @@
 		AF53E2CF2A34797E0082D9DD /* General */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B192A3872C800BF826C /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -157,6 +180,14 @@
 				AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		AFA74B1B2A38838C00BF826C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AFA74B1C2A3883BB00BF826C /* Resources.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F99BDC782A31C11E000706E2 = {
@@ -182,6 +213,7 @@
 		F99BDC832A31C11E000706E2 /* Cinemax */ = {
 			isa = PBXGroup;
 			children = (
+				AFA74B1B2A38838C00BF826C /* Helpers */,
 				AF53E2CE2A34790D0082D9DD /* Managers */,
 				AF53E2C82A3477EE0082D9DD /* Models */,
 				AF53E2C92A34781D0082D9DD /* Views */,
@@ -341,12 +373,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA74B102A38723300BF826C /* Title.swift in Sources */,
 				F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */,
+				AFA74B1A2A3872C800BF826C /* TitlePreviewViewController.swift in Sources */,
+				AFA74B162A38727A00BF826C /* TitleTableViewCell.swift in Sources */,
 				AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */,
+				AFA74B1D2A3883BB00BF826C /* Resources.swift in Sources */,
+				AFA74B122A38725800BF826C /* CollectionViewTableViewCell.swift in Sources */,
 				AF53E2D22A347A050082D9DD /* MainTabBarViewController.swift in Sources */,
 				AF53E2D42A347B3E0082D9DD /* BillboardViewController.swift in Sources */,
+				AFA74B0E2A38721E00BF826C /* APICaller.swift in Sources */,
 				F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */,
 				AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */,
+				AFA74B142A38726A00BF826C /* TitleCollectionViewCell.swift in Sources */,
+				AFA74B182A38728500BF826C /* TitleViewModel.swift in Sources */,
 				AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */,
 				F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */,
 			);
@@ -519,7 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BS9RL56QJY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cinemax/Info.plist;
+				INFOPLIST_FILE = Cinemax/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -547,7 +587,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BS9RL56QJY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cinemax/Info.plist;
+				INFOPLIST_FILE = Cinemax/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
