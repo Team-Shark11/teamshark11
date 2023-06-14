@@ -12,7 +12,7 @@ class MainTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor(red: 0.42, green: 0.42, blue: 0.48, alpha: 1.0)
+        view.backgroundColor = UIColor(red: 0.086, green: 0.086, blue: 0.129, alpha: 1.0)
         
         let vc1 = UINavigationController(rootViewController: BillboardViewController())
         let vc2 = UINavigationController(rootViewController: ComingSoonViewController())
@@ -26,7 +26,7 @@ class MainTabBarViewController: UITabBarController {
         vc4.tabBarItem = UITabBarItem(title: "Profile", image: R.Images.TabBar.profile, tag: 4)
         
         
-        tabBar.tintColor = .systemRed
+        tabBar.tintColor = UIColor(red: 0.969, green: 0.263, blue: 0.275, alpha: 1.0)
         
         
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
