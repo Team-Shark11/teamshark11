@@ -12,6 +12,8 @@
 		AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */; };
 		AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D72A347BA40082D9DD /* FoodViewController.swift */; };
 		AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */; };
+		AF7EB95E2A4AD1950064BBA7 /* BaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EB95D2A4AD1950064BBA7 /* BaseUIView.swift */; };
+		AF7EB9612A4AE9930064BBA7 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7EB9602A4AE9930064BBA7 /* UIColor + ext.swift */; };
 		AFA74B0E2A38721E00BF826C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B0D2A38721E00BF826C /* APICaller.swift */; };
 		AFA74B102A38723300BF826C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B0F2A38723300BF826C /* Title.swift */; };
 		AFA74B122A38725800BF826C /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */; };
@@ -53,6 +55,8 @@
 		AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
 		AF53E2D72A347BA40082D9DD /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF7EB95D2A4AD1950064BBA7 /* BaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIView.swift; sourceTree = "<group>"; };
+		AF7EB9602A4AE9930064BBA7 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		AFA74B0D2A38721E00BF826C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		AFA74B0F2A38723300BF826C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				AFA74B112A38725800BF826C /* CollectionViewTableViewCell.swift */,
 				AFA74B132A38726A00BF826C /* TitleCollectionViewCell.swift */,
 				AFA74B152A38727A00BF826C /* TitleTableViewCell.swift */,
+				AF7EB95D2A4AD1950064BBA7 /* BaseUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,9 +187,18 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		AF7EB95F2A4AE9790064BBA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF7EB9602A4AE9930064BBA7 /* UIColor + ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		AFA74B1B2A38838C00BF826C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AF7EB95F2A4AE9790064BBA7 /* Extensions */,
 				AFA74B1C2A3883BB00BF826C /* Resources.swift */,
 			);
 			path = Helpers;
@@ -376,6 +390,7 @@
 				AFA74B102A38723300BF826C /* Title.swift in Sources */,
 				F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */,
 				AFA74B1A2A3872C800BF826C /* TitlePreviewViewController.swift in Sources */,
+				AF7EB95E2A4AD1950064BBA7 /* BaseUIView.swift in Sources */,
 				AFA74B162A38727A00BF826C /* TitleTableViewCell.swift in Sources */,
 				AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */,
 				AFA74B1D2A3883BB00BF826C /* Resources.swift in Sources */,
@@ -387,6 +402,7 @@
 				AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */,
 				AFA74B142A38726A00BF826C /* TitleCollectionViewCell.swift in Sources */,
 				AFA74B182A38728500BF826C /* TitleViewModel.swift in Sources */,
+				AF7EB9612A4AE9930064BBA7 /* UIColor + ext.swift in Sources */,
 				AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */,
 				F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */,
 			);

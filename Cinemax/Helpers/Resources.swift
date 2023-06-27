@@ -8,6 +8,10 @@
 import UIKit
 
 enum R {
+    enum Colors {
+        static let baseColor = UIColor(hexString: "#F74346")
+    }
+    
     enum Images {
         enum TabBar {
             static let billboard = UIImage(named: "billboard_tab")
