@@ -4,4 +4,6 @@ Pods
 *.xcworkspace
 !*/ios/*/*.podspec
 !*/*/ios/*.podspec
-Podfile.lock
+*.xcuserdata
+
+
