@@ -7,6 +7,10 @@
 
 import UIKit
 
+enum Sections: Int {
+    case TrendingMovies = 0
+}
+
 class BillboardViewController: UIViewController {
 
     override func viewDidLoad() {
