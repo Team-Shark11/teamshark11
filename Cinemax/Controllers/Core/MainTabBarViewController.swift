@@ -27,9 +27,9 @@ class MainTabBarViewController: UITabBarController {
         
         
         tabBar.tintColor = UIColor(red: 0.969, green: 0.263, blue: 0.275, alpha: 1.0)
+        tabBar.unselectedItemTintColor = UIColor(red: 0.498, green: 0.498, blue: 0.506, alpha: 1.0)
         
         
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
-        
     }
 }

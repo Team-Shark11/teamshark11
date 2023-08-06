@@ -20,6 +20,11 @@
 		AFA74B182A38728500BF826C /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B172A38728500BF826C /* TitleViewModel.swift */; };
 		AFA74B1A2A3872C800BF826C /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B192A3872C800BF826C /* TitlePreviewViewController.swift */; };
 		AFA74B1D2A3883BB00BF826C /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA74B1C2A3883BB00BF826C /* Resources.swift */; };
+		F944BF7D2A5C021000CBA004 /* DropdownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F944BF7C2A5C021000CBA004 /* DropdownViewController.swift */; };
+		F95CFCBB2A5445FE00DF0A5F /* StructComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CFCBA2A5445FE00DF0A5F /* StructComingSoon.swift */; };
+		F95CFCBD2A544B6C00DF0A5F /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CFCBC2A544B6C00DF0A5F /* ExpandableHeaderView.swift */; };
+		F98B0E852A7A4B0300B8EBAF /* CinemaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98B0E842A7A4B0300B8EBAF /* CinemaCell.swift */; };
+		F98CA1562A41DD6C00D9F296 /* Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CA1552A41DD6C00D9F296 /* Extensions .swift */; };
 		F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC842A31C11E000706E2 /* AppDelegate.swift */; };
 		F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC862A31C11E000706E2 /* SceneDelegate.swift */; };
 		F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F99BDC8D2A31C11E000706E2 /* Cinemax.xcdatamodeld */; };
@@ -61,6 +66,11 @@
 		AFA74B172A38728500BF826C /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		AFA74B192A3872C800BF826C /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		AFA74B1C2A3883BB00BF826C /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		F944BF7C2A5C021000CBA004 /* DropdownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownViewController.swift; sourceTree = "<group>"; };
+		F95CFCBA2A5445FE00DF0A5F /* StructComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructComingSoon.swift; sourceTree = "<group>"; };
+		F95CFCBC2A544B6C00DF0A5F /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		F98B0E842A7A4B0300B8EBAF /* CinemaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaCell.swift; sourceTree = "<group>"; };
+		F98CA1552A41DD6C00D9F296 /* Extensions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions .swift"; sourceTree = "<group>"; };
 		F99BDC812A31C11E000706E2 /* Cinemax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinemax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99BDC842A31C11E000706E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F99BDC862A31C11E000706E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				AFA74B0F2A38723300BF826C /* Title.swift */,
+				F95CFCBA2A5445FE00DF0A5F /* StructComingSoon.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +187,8 @@
 				AF53E2D12A347A050082D9DD /* MainTabBarViewController.swift */,
 				AF53E2D32A347B3E0082D9DD /* BillboardViewController.swift */,
 				AF53E2D52A347B8D0082D9DD /* ComingSoonViewController.swift */,
+				F98B0E842A7A4B0300B8EBAF /* CinemaCell.swift */,
+				F944BF7C2A5C021000CBA004 /* DropdownViewController.swift */,
 				AF53E2D72A347BA40082D9DD /* FoodViewController.swift */,
 				AF53E2D92A347BD40082D9DD /* ProfileViewController.swift */,
 			);
@@ -186,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				AFA74B1C2A3883BB00BF826C /* Resources.swift */,
+				F98CA1552A41DD6C00D9F296 /* Extensions .swift */,
+				F95CFCBC2A544B6C00DF0A5F /* ExpandableHeaderView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -373,10 +388,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95CFCBB2A5445FE00DF0A5F /* StructComingSoon.swift in Sources */,
 				AFA74B102A38723300BF826C /* Title.swift in Sources */,
 				F99BDC8F2A31C11E000706E2 /* Cinemax.xcdatamodeld in Sources */,
 				AFA74B1A2A3872C800BF826C /* TitlePreviewViewController.swift in Sources */,
 				AFA74B162A38727A00BF826C /* TitleTableViewCell.swift in Sources */,
+				F95CFCBD2A544B6C00DF0A5F /* ExpandableHeaderView.swift in Sources */,
 				AF53E2D82A347BA40082D9DD /* FoodViewController.swift in Sources */,
 				AFA74B1D2A3883BB00BF826C /* Resources.swift in Sources */,
 				AFA74B122A38725800BF826C /* CollectionViewTableViewCell.swift in Sources */,
@@ -386,9 +403,12 @@
 				F99BDC852A31C11E000706E2 /* AppDelegate.swift in Sources */,
 				AF53E2D62A347B8D0082D9DD /* ComingSoonViewController.swift in Sources */,
 				AFA74B142A38726A00BF826C /* TitleCollectionViewCell.swift in Sources */,
+				F944BF7D2A5C021000CBA004 /* DropdownViewController.swift in Sources */,
 				AFA74B182A38728500BF826C /* TitleViewModel.swift in Sources */,
+				F98CA1562A41DD6C00D9F296 /* Extensions .swift in Sources */,
 				AF53E2DA2A347BD40082D9DD /* ProfileViewController.swift in Sources */,
 				F99BDC872A31C11E000706E2 /* SceneDelegate.swift in Sources */,
+				F98B0E852A7A4B0300B8EBAF /* CinemaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
